@@ -53,11 +53,7 @@ Depending on the role, `SQL` and `Python` are of absolute priority. For more adv
 
 ## 2. How are in-demand skills trending for Data Analysts?
 
-This section focused on analyzing Data Analyst job listings across the United States. I filtered and identified the five key skills most frequently required by employers.
-
-To gain deeper insights, I tracked how the demand for these skills fluctuated over the course of the year. This involved examining monthly trends to determine how the prominence of each skill varied from month to month. By doing so, I were able to visualize and understand the seasonal patterns and shifts in demand for specific Data Analyst skills throughout the year.
-
-This analysis not only highlighted which skills are currently in high demand but also provided a temporal perspective on how these demands change, offering valuable insights for job seekers and industry professionals looking to align their skills with market trends.
+To identify the highest-paying roles and skills, I only got jobs in the United States and looked at their median salary. But first I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs are paid the most.
 
 View my notebook with detailed steps here:
 [3_Skill_Trend.ipynb](03_Project/03_Skill_Trend.ipynb)
@@ -85,6 +81,73 @@ for i in range(5):
 ![Trending Top Skills for Data Analysts in the US](03_Project/Images/skills_trend.png)
 
 *Line chart visualizing the trending top skills for data analysts in the US in 2023*
+
+### Insights
+tbc.
+
+## 3. How well do jobs and skills pay for Data Analysts?
+
+To pinpoint the highest-paying roles and skills, I focused solely on jobs within the United States and examined their median salaries. Initially, I reviewed the salary distributions for common data roles such as Data Scientist, Data Engineer, and Data Analyst to understand which positions offer the highest pay.
+
+View my notebook with detailed steps here:
+[4_Salary_Analysis.ipynb](03_Project/04_Salary_Analysis.ipynb)
+
+### Visualize Data
+
+```python
+sns.boxplot(data=df_US_top6, x="salary_year_avg", y="job_title_short", order=job_sorted)
+
+plt.title("Salary Distribution in the United Staes")
+plt.xlabel("Yearly Salary ($USD)")
+plt.ylabel("")
+ax = plt.gca()
+ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, pos: f"${int(x/1000)}K"))
+plt.xlim(0, 600000)
+
+plt.show()
+```
+
+### Results
+![Salary Distributions of Data Jobs in the US](03_Project/Images/salary_distribution.png)
+
+*Box plot visualizing the salary distributions for the top 6 data job titles*
+
+### Insights
+tbc.
+
+## Highest Paid and Most Demanded Skills for Data
+
+Next, I refined my analysis to concentrate exclusively on data analyst positions. I examined both the highest-paying and most sought-after skills, and presented these findings using two bar charts.
+
+### Visualize Data
+
+```python
+fig, ax = plt.subplots(2, 1)
+
+sns.set_theme(style="ticks")
+sns.barplot(data=df_DA_top_pay, x="median", y=df_DA_top_pay.index, ax=ax[0], hue="median", palette="dark:b_r", legend=False)
+
+ax[0].set_title("Top 10 Highest Paid Skills for Data Analysts")
+ax[0].set_ylabel("")
+ax[0].set_xlabel("")
+ax[0].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f"${int(x/1000)}K"))
+
+sns.barplot(data=df_DA_skills, x="median", y=df_DA_skills.index, ax=ax[1], hue="median", palette="light:b", legend=False)
+
+ax[1].set_title("Top 10 Most In-Demand Skills for Data Analysts")
+ax[1].set_ylabel("")
+ax[1].set_xlabel("Median Salary (USD)")
+ax[1].set_xlim(ax[0].get_xlim())
+ax[1].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f"${int(x/1000)}K"))
+
+fig.tight_layout()
+plt.show()
+```
+
+### Results
+![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](03_Project/Images/top_paid.png)
+
+*Two separate Horizontal bar charts visualizing the highest paid skills and most in-demand skills for data analysts in the US*
 
 ### Insights
 tbc.
