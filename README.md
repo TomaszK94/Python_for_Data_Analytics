@@ -195,7 +195,7 @@ ax = plt.gca()
 ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda y, pos: f"${int(y/1000)}K"))
 ax.xaxis.set_major_formatter(PercentFormatter(decimals=0))
 
-# Adjust layout and display plotplt.tight_layout()
+# Adjust layout and display 
 plt.tight_layout()
 plt.show()
 ```
