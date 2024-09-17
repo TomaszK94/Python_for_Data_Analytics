@@ -35,7 +35,7 @@ plt.show()
 
 ### Results
 ![Visualization of Top Skills for Data Jobs](03_Project/Images/skill_demand_all_data_roles.png)
-
+*Horizontal bar chart visualizing What are the most demanded skills for the top 3 most popular data roles*
 
 ### Insights
 
@@ -48,3 +48,41 @@ Specialized technologies such as `AWS`, `Azure`, and `Spark` are more relevant f
 **Summary:**
 
 Depending on the role, `SQL` and `Python` are of absolute priority. For more advanced roles, such as `Data Engineer` and `Data Scientist`, there is an increasing demand for knowledge of cloud technologies and big data processing tools, such as `AWS`, `Azure`, and `Spark`.
+
+
+## 2. How are in-demand skills trending for Data Analysts?
+
+This section focused on analyzing Data Analyst job listings across the United States. I filtered and identified the five key skills most frequently required by employers.
+
+To gain deeper insights, I tracked how the demand for these skills fluctuated over the course of the year. This involved examining monthly trends to determine how the prominence of each skill varied from month to month. By doing so, I were able to visualize and understand the seasonal patterns and shifts in demand for specific Data Analyst skills throughout the year.
+
+This analysis not only highlighted which skills are currently in high demand but also provided a temporal perspective on how these demands change, offering valuable insights for job seekers and industry professionals looking to align their skills with market trends.
+
+View my notebook with detailed steps here:
+[3_Skill_Trend.ipynb](03_Project/03_Skill_Trend.ipynb)
+
+### Visualize Data
+
+```python
+sns.lineplot(data=df_plot, dashes=False, palette="tab10")
+sns.set_theme(style="ticks")
+sns.despine()
+
+plt.title("Trending Top Skills for Data Analysts in the US")
+plt.ylabel("Likelihood in Job Posting")
+plt.xlabel("2023")
+plt.legend().remove()
+
+ax = plt.gca()
+ax.yaxis.set_major_formatter(PercentFormatter(decimals=0))
+
+for i in range(5):
+    plt.text(11.25, df_plot.iloc[-1, i], df_plot.columns[i])
+```
+
+### Results
+![Trending Top Skills for Data Analysts in the US](03_Project/Images/skills_trend.png)
+*Line chart visualizing the trending top skills for data analysts in the US in 2023*
+
+### Insights
+tbc.
