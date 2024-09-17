@@ -151,3 +151,60 @@ plt.show()
 
 ### Insights
 tbc.
+
+## 4. What is the most optimal skill to learn for Data Analysts?
+
+To identify the most optimal skills to learn (the ones that are the highest paid and highest in demand) I calculated the percent of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn.
+
+View my notebook with detailed steps here:
+[5_Optimal_Skills.ipynb](03_Project/05_Optimal_Skills.ipynb)
+
+### Visualize Data
+
+```python
+plt.figure(figsize=(8, 6))
+sns.scatterplot(
+    data=df_plot,
+    x="skill_percent",
+    y="median_salary",
+    hue="technology",
+    s=80
+)
+sns.despine()
+sns.set_theme(style="ticks")
+
+# Prepare texts for adjustText
+texts = []
+for i, txt in enumerate(df_DA_skills_high_demand.index):
+    x = df_DA_skills_high_demand['skill_percent'].iloc[i]
+    y = df_DA_skills_high_demand['median_salary'].iloc[i]
+    texts.append(plt.text(x + 0.5, y + 0.5, txt, fontsize=13))
+
+# Adjust text to avoid overlap
+adjust_text(texts, arrowprops=dict(arrowstyle="->", color="gray"))
+
+# Set axis labels, title and legend
+plt.xlabel('Percent of Data Analyst Jobs')
+plt.ylabel('Median Yearly Salary')
+plt.title("Most Optimal Skills for Data Analysts in the US")
+plt.legend(title="Technology")
+
+# Formating x, y axis
+from matplotlib.ticker import PercentFormatter
+ax = plt.gca()
+ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda y, pos: f"${int(y/1000)}K"))
+ax.xaxis.set_major_formatter(PercentFormatter(decimals=0))
+
+# Adjust layout and display plotplt.tight_layout()
+plt.tight_layout()
+plt.show()
+```
+
+### Results
+![Most Optimal Skills for Data Analysts in the US](03_Project/Images/most_optimal_skills.png)
+
+*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US*
+
+### Insights
+
+tbc.
