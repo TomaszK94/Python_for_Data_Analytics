@@ -35,6 +35,7 @@ plt.show()
 
 ### Results
 ![Visualization of Top Skills for Data Jobs](03_Project/Images/skill_demand_all_data_roles.png)
+
 *Horizontal bar chart visualizing What are the most demanded skills for the top 3 most popular data roles*
 
 ### Insights
@@ -82,6 +83,7 @@ for i in range(5):
 
 ### Results
 ![Trending Top Skills for Data Analysts in the US](03_Project/Images/skills_trend.png)
+
 *Line chart visualizing the trending top skills for data analysts in the US in 2023*
 
 ### Insights
