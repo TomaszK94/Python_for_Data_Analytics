@@ -1,3 +1,7 @@
+# Data Preparatin and Cleanup 
+
+This section outlines the steps taken to prepare the data for analysis, ensuring accuracy and usability.
+
 # The Analysis 
 
 ## 1. What are the most demanded skills for the top 3 most popular data roles?
