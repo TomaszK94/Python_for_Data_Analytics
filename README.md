@@ -23,6 +23,14 @@ df['job_posted_date'] = pd.to_datetime(df['job_posted_date'])
 df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else x)
 ```
 
+## Filter US Jobs
+
+To focus my analysis on the U.S. job market, I apply filters to the dataset, narrowing down to roles based in the United States.
+
+```Python
+df_US = df[df['job_country'] == 'United States']
+```
+
 # The Analysis 
 
 ## 1. What are the most demanded skills for the top 3 most popular data roles?
