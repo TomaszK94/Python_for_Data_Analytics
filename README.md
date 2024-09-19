@@ -167,7 +167,45 @@ plt.show()
 *Box plot visualizing the salary distributions for the top 6 data job titles*
 
 ### Insights
-tbc.
+
+#### Key Observations:
+
+`Senior Data Scientist:`
+
+Median salary is close to $150K, with a wider distribution of salaries ranging from around $100K to $200K.
+There are a significant number of outliers, with some individuals earning upwards of $400K-$500K.
+
+`Senior Data Engineer:`
+
+Similar to Senior Data Scientists, the median salary is also around $150K, with a range of salaries from approximately $100K to $200K.
+Several outliers exist, though not as extreme as those seen for Senior Data Scientists, with salaries going up to $300K or more.
+
+`Data Scientist:`
+
+The median salary is around $120K, with most salaries ranging from $100K to $150K.
+Numerous outliers are present, with some earning more than $300K.
+
+`Data Engineer:`
+
+The median salary is roughly $120K, with a distribution that is very similar to Data Scientists.
+Outliers go up to $300K or slightly beyond.
+
+`Senior Data Analyst:`
+
+Median salary is closer to $100K, with the majority of salaries ranging from around $80K to $130K.
+Fewer outliers compared to other roles, though some individuals earn more than $200K.
+
+`Data Analyst:`
+
+This role has the lowest median salary, around $80K.
+Salaries are concentrated between $60K and $100K, with fewer extreme outliers, but some still earn over $150K.
+
+#### Conclusions:
+
+Senior positions (`Senior Data Scientist`, `Senior Data Engineer`) tend to have both higher median salaries and a broader distribution of salaries, suggesting more variability in pay based on experience, industry, or company size.
+`Data Analysts` and `Senior Data Analysts` have lower overall salary distributions compared to the other roles, with fewer high-earning outliers.
+`Data Scientists` and `Data Engineers` occupy similar salary ranges, though `Data Scientists` show more extreme high-end outliers, suggesting that certain industries may pay more for data science expertise.
+In summary, the chart highlights that `senior roles` and `technical positions` in `data science` and `engineering` offer the highest earning potential, while `analytical` roles like `data analysts` tend to have lower, but more stable salary distributions.
 
 ## Highest Paid and Most Demanded Skills for Data
 
