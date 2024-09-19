@@ -116,7 +116,28 @@ for i in range(5):
 *Line chart visualizing the trending top skills for data analysts in the US in 2023*
 
 ### Insights
-tbc.
+
+The chart shows the changing trends in skills required for data analysts in the US throughout 2023. Here is the analysis:
+
+#### Key Observations:
+
+`SQL:` It is the most sought-after skill throughout the year, although there is a decline from over 60% in January to around 50% by December in the number of job postings. However, it remains the most crucial skill.
+
+`Excel:` Another important skill, remaining stable at around 40% for most of the year. There is a noticeable drop in September, but by the end of the year, Excel sees an uptick in demand.
+
+`Python:` It stays at a 30-35% level with some fluctuations. In the second half of the year, it overtakes Tableau, indicating growing interest in this skill towards the year's end.
+
+`Tableau:` Like Python, it hovers between 25-35%. However, compared to Python, Tableau's popularity declines, especially toward the end of the year.
+
+`Power BI:` This is the least popular of the listed skills, remaining around 20-25% throughout the year, with no significant increases or decreases.
+
+#### Conclusions:
+
+`SQL` and `Excel` are key skills for data analysts.
+`Python` gains traction towards the end of the year, suggesting a growing interest in programming languages for data analysis.
+`Tableau` is declining in popularity.
+`Power BI` remains a stable but niche skill.
+In summary, data analysts need to primarily master `SQL` and `Excel`, but there is increasing emphasis on `Python`.
 
 ## 3. How well do jobs and skills pay for Data Analysts?
 
