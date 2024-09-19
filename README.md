@@ -1,3 +1,18 @@
+# Tools I Utilized
+
+In my exploration of the data analyst job market, I leveraged several essential tools:
+
+- `Python:` Served as the core of my analysis, enabling me to examine the data and uncover significant insights. I also utilized the following Python libraries:
+    - `Pandas:` Used to process and analyze the dataset.
+    - `Matplotlib:` Employed for generating visual representations of the data.
+    - `Seaborn:` Allowed for the creation of more sophisticated and detailed visualizations.
+
+- `Jupyter Notebooks:` The platform I used to execute my Python scripts, which provided a convenient way to incorporate notes and observations alongside the code.
+
+- `Visual Studio Code:` My preferred editor for running Python scripts.
+
+- `Git & GitHub:` Crucial for version control, enabling me to share my Python scripts and analyses, facilitating collaboration and keeping track of the project’s progress.
+
 # Data Preparatin and Cleanup 
 
 This section outlines the steps taken to prepare the data for analysis, ensuring accuracy and usability.
