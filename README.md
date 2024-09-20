@@ -314,4 +314,22 @@ plt.show()
 
 ### Insights
 
-tbc.
+`Python` stands out as the most lucrative skill, offering a median salary close to $98K. This suggests a high demand for advanced programming skills, especially in data manipulation, statistical analysis, and machine learning.
+
+`SQL` is essential for database management and querying, with a median salary around $92K. SQL is one of the core skills for data analysts, valued for its versatility in handling large datasets and integrating with various platforms.
+
+`Oracle`, in the cloud category, offers a similar high salary (around $98K), indicating that expertise in cloud-based database management systems is highly rewarded, even if it is more niche compared to SQL.
+
+`Tableau and Power BI` are highly regarded analyst tools. `Tableau` offers a median salary of around $92K, reflecting its importance for data visualization and business intelligence reporting. `Power BI`, while slightly lower (around $90K), is also a valuable tool in data analysis roles, offering strong integration with Microsoft products.
+
+`R` is another notable programming skill, with a median salary of around $92K. Although less commonly used than Python, R is crucial for statistical analysis and specialized in data visualization and modeling.
+
+`SQL Server`, a specific database management system, also commands a salary around $92K. This highlights the importance of not just knowing SQL but also being proficient with specific database platforms.
+
+`Excel and PowerPoint` remain staples for data presentation and analysis, but their median salaries are lower, around $86K, reflecting their more generalist nature compared to the specialized tools like Tableau or Power BI.
+
+`Go`, another programming language, appears on the chart with a median salary of $90K, showing that some data analyst roles also require back-end or software development skills.
+
+`SAS`, a specialized tool for advanced analytics, offers a salary around $90K. Though less versatile than some other programming languages, it's highly valuable in sectors that require heavy statistical analysis.
+
+In conclusion, programming languages `(Python, SQL, R)`, databases `(SQL Server, Oracle)`, and advanced analytical tools `(Tableau, Power BI)` tend to offer the highest rewards in terms of salary. General tools like `Excel and PowerPoint`, while useful, are associated with lower earning potential in comparison to these specialized skills.
