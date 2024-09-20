@@ -263,17 +263,17 @@ This chart shows the `highest-paid skills` for data analysts, but the number of 
 
 `Dplyr` ($200K) is highly specialized and used mainly in R programming for data manipulation. Despite high pay, jobs requiring this skill are rare.
 
-`Bitbucket and GitLab` (around $190K) are used for version control. These tools are essential in certain environments, but demand for data analysts needing them is limited.
+`Bitbucket` and `GitLab` (around $190K) are used for version control. These tools are essential in certain environments, but demand for data analysts needing them is limited.
 
 `Solidity` ($185K) is a blockchain-specific language. Its application is niche, explaining the small number of high-paying roles.
 
 `Hugging Face` ($175K) is focused on NLP and machine learning, with few roles needing this advanced skill.
 
-`Couchbase and Cassandra` (above $150K) are NoSQL databases used in large-scale systems, with fewer data analyst roles requiring this expertise.
+`Couchbase` and `Cassandra` (above $150K) are NoSQL databases used in large-scale systems, with fewer data analyst roles requiring this expertise.
 
 `Ansible` ($160K) is an automation tool important in infrastructure roles, but there are few job openings for analysts needing this skill.
 
-`Mxnet and VMware` ($150K) are used in specialized machine learning and cloud-related roles, leading to higher pay but fewer positions.
+`Mxnet` and `VMware` ($150K) are used in specialized machine learning and cloud-related roles, leading to higher pay but fewer positions.
 
 The common theme across these high-paying skills is that the number of job openings that require them is relatively low compared to more widely-used skills. This doesn’t imply that the skills are not valuable, but rather that their application is specialized and thus leads to fewer job postings. In these niche markets, when companies do need a specialist, they are willing to pay significantly more because the supply of qualified professionals is smaller, creating a high-salary environment despite the low overall job demand.
 
@@ -368,4 +368,4 @@ plt.show()
 
 `SAS`, a specialized tool for advanced analytics, offers a salary around $90K. Though less versatile than some other programming languages, it's highly valuable in sectors that require heavy statistical analysis.
 
-In conclusion, programming languages `(Python, SQL, R)`, databases `(SQL Server, Oracle)`, and advanced analytical tools `(Tableau, Power BI)` tend to offer the highest rewards in terms of salary. General tools like `Excel and PowerPoint`, while useful, are associated with lower earning potential in comparison to these specialized skills.
+In conclusion, programming languages (`Python`, `SQL`, `R`), databases (`SQL Server`, `Oracle`), and advanced analytical tools (`Tableau`, `Power BI`) tend to offer the highest rewards in terms of salary. General tools like `Excel` and `PowerPoint`, while useful, are associated with lower earning potential in comparison to these specialized skills.
