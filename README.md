@@ -257,7 +257,43 @@ plt.show()
 *Two separate Horizontal bar charts visualizing the highest paid skills and most in-demand skills for data analysts in the US*
 
 ### Insights
-tbc.
+
+Top 10 Highest Paid Skills for Data Analysts (Top Chart)
+This chart shows the highest-paid skills for data analysts, but the number of job opportunities requiring these skills is relatively low, which drives up the salaries for those few roles.
+
+Dplyr ($200K) is highly specialized and used mainly in R programming for data manipulation. Despite high pay, jobs requiring this skill are rare.
+
+Bitbucket and GitLab (around $190K) are used for version control. These tools are essential in certain environments, but demand for data analysts needing them is limited.
+
+Solidity ($185K) is a blockchain-specific language. Its application is niche, explaining the small number of high-paying roles.
+
+Hugging Face ($175K) is focused on NLP and machine learning, with few roles needing this advanced skill.
+
+Couchbase and Cassandra (above $150K) are NoSQL databases used in large-scale systems, with fewer data analyst roles requiring this expertise.
+
+Ansible ($160K) is an automation tool important in infrastructure roles, but there are few job openings for analysts needing this skill.
+
+Mxnet and VMware ($150K) are used in specialized machine learning and cloud-related roles, leading to higher pay but fewer positions.
+
+The common theme across these high-paying skills is that the number of job openings that require them is relatively low compared to more widely-used skills. This doesn’t imply that the skills are not valuable, but rather that their application is specialized and thus leads to fewer job postings. In these niche markets, when companies do need a specialist, they are willing to pay significantly more because the supply of qualified professionals is smaller, creating a high-salary environment despite the low overall job demand.
+
+Top 10 Most In-Demand Skills for Data Analysts (Bottom Chart)
+The bottom chart focuses on widely used, in-demand skills for data analysts, which, while offering lower salaries than niche skills, are essential across many industries.
+
+Python ($100K) is the most in-demand programming language for data analysis and is widely used across industries.
+
+Tableau ($100K) is highly valued for data visualization and reporting in many businesses.
+
+R ($95K) is popular in statistical analysis, especially in research and academia.
+
+SQL Server and SQL (around $90K) are foundational database skills used in nearly every data analyst role.
+
+SAS, Power BI, and Excel ($85K-$90K) are commonly used for reporting and analytics, making them highly demanded.
+
+PowerPoint and Word ($80K) are general tools for communication and reporting, with widespread demand but lower pay.
+
+Conclusion:
+The top chart highlights that the highest-paying skills have fewer job openings, making them highly lucrative but less commonly needed. In contrast, the bottom chart shows that foundational skills like Python, SQL, and Tableau are in high demand across many industries, offering more job opportunities but at slightly lower pay due to the wider talent pool.
 
 ## 4. What is the most optimal skill to learn for Data Analysts?
 
