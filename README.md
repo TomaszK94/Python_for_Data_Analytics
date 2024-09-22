@@ -1,3 +1,12 @@
+# The Questions
+
+Below are the questions I want to answer in my project:
+
+1. What are the skills most in demand for the top 3 most popular data roles?
+2. How are in-demand skills trending for Data Analysts?
+3. How well do jobs and skills pay for Data Analysts?
+4. What are the optimal skills for data analysts to learn? (High Demand AND High Paying)
+
 # Tools I Utilized
 
 In my exploration of the data analyst job market, I leveraged several essential tools:
